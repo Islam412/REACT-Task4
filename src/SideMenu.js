@@ -25,8 +25,8 @@ export default function(){
             </TagButtom>
             <TagButtom title='مقالات الاسبوع ' />
             <TagButtom title='اخبار التكنولجيا ' />
+            <TagButtom title=""/>
             {/* <TagButtom />
-            <TagButtom />
             <TagButtom />
             <TagButtom />
             <TagButtom />

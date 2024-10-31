@@ -4,6 +4,8 @@ import Header from './Header';
 import Post from './Post';
 import SideMenu from './SideMenu';
 
+
+const showCategories = true;
 function App() {
   return (
     <div className="App">
@@ -37,7 +39,7 @@ function App() {
 
           {/* side menu */}
           <div style={{ width: "30%" }}>
-            <SideMenu />
+            <AppSideMenu/>
           </div>
           {/* ==side menu== */}
         </div>
@@ -47,6 +49,16 @@ function App() {
 
     </div>
   );
+}
+
+
+function AppSideMenu(){
+  if(showCategories == true){
+    return (<SideMenu />);
+  }else {
+    return null;
+  }
+  
 }
 
 export default App;
